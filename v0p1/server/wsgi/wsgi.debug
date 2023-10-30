@@ -1,0 +1,19 @@
+#!/var/www/html/workspaces/python3.7/bin/python3.7
+import sys
+import site
+import os
+
+
+mode = 'dev'
+
+app_dir = 'D:/Githubs/svi_hrm/v0p1'
+
+site.addsitedir('/var/www/html/workspaces/python3.7/lib/python3.7/site-packages')
+sys.path.insert(0, f'{app_dir}/server')
+
+# Set environment
+os.environ['ENV_MODE'] = mode
+
+from app import app as application
+
+application.run()

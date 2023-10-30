@@ -1,0 +1,562 @@
+2023-10-30 10:56:02,401 DEBUG (145) 
+                SELECT 
+                    email,
+                    employee_id,
+                    first_name,
+                    middle_name,
+                    last_name,
+                    joined_date,
+                    svi_id,
+                    image_url
+                FROM v_employee_attribute 
+                WHERE employee_id = 65
+                
+2023-10-30 10:56:02,404 INFO (133) Create a new connection to the database
+2023-10-30 10:56:06,815 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 10:56:06,818 INFO (133) Create a new connection to the database
+2023-10-30 11:01:56,162 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:01:56,167 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:01:56,178 INFO (133) Create a new connection to the database
+2023-10-30 11:01:56,180 INFO (133) Create a new connection to the database
+2023-10-30 11:01:56,187 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:01:56,190 INFO (133) Create a new connection to the database
+2023-10-30 11:03:30,373 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:30,382 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:30,385 INFO (133) Create a new connection to the database
+2023-10-30 11:03:30,394 INFO (133) Create a new connection to the database
+2023-10-30 11:03:30,396 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:03:30,398 INFO (133) Create a new connection to the database
+2023-10-30 11:03:31,417 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:31,420 INFO (133) Create a new connection to the database
+2023-10-30 11:03:31,421 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:31,424 INFO (133) Create a new connection to the database
+2023-10-30 11:03:31,426 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:03:31,429 INFO (133) Create a new connection to the database
+2023-10-30 11:03:34,044 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:34,045 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:34,047 INFO (133) Create a new connection to the database
+2023-10-30 11:03:34,061 INFO (133) Create a new connection to the database
+2023-10-30 11:03:34,063 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:03:34,067 INFO (133) Create a new connection to the database
+2023-10-30 11:03:36,564 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:36,568 INFO (133) Create a new connection to the database
+2023-10-30 11:03:36,570 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:03:36,584 INFO (133) Create a new connection to the database
+2023-10-30 11:03:36,585 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:03:36,588 INFO (133) Create a new connection to the database
+2023-10-30 11:07:37,544 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:07:37,549 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:07:37,556 INFO (133) Create a new connection to the database
+2023-10-30 11:07:37,563 INFO (133) Create a new connection to the database
+2023-10-30 11:07:37,565 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:07:37,569 INFO (133) Create a new connection to the database
+2023-10-30 11:08:37,840 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:08:37,840 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:08:37,855 INFO (133) Create a new connection to the database
+2023-10-30 11:08:37,859 INFO (133) Create a new connection to the database
+2023-10-30 11:08:37,862 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:08:37,865 INFO (133) Create a new connection to the database
+2023-10-30 11:10:22,624 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:10:22,627 INFO (133) Create a new connection to the database
+2023-10-30 11:10:22,629 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:10:22,640 INFO (133) Create a new connection to the database
+2023-10-30 11:10:22,642 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:10:22,644 INFO (133) Create a new connection to the database
+2023-10-30 11:11:56,487 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:11:56,492 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:11:56,499 INFO (133) Create a new connection to the database
+2023-10-30 11:11:56,503 INFO (133) Create a new connection to the database
+2023-10-30 11:11:56,506 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:11:56,509 INFO (133) Create a new connection to the database
+2023-10-30 11:26:27,474 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:26:27,485 INFO (133) Create a new connection to the database
+2023-10-30 11:26:28,150 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:26:28,162 INFO (133) Create a new connection to the database
+2023-10-30 11:26:28,165 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:26:28,169 INFO (133) Create a new connection to the database
+2023-10-30 11:26:37,118 DEBUG (145) 
+                SELECT 
+                    email,
+                    employee_id,
+                    first_name,
+                    middle_name,
+                    last_name,
+                    joined_date,
+                    svi_id,
+                    image_url
+                FROM v_employee_attribute 
+                WHERE employee_id = 65
+                
+2023-10-30 11:26:37,130 INFO (133) Create a new connection to the database
+2023-10-30 11:26:51,822 DEBUG (145) 
+                SELECT 
+                    email,
+                    employee_id,
+                    first_name,
+                    middle_name,
+                    last_name,
+                    joined_date,
+                    svi_id,
+                    image_url
+                FROM v_employee_attribute 
+                WHERE employee_id = 65
+                
+2023-10-30 11:26:51,836 INFO (133) Create a new connection to the database
+2023-10-30 11:27:01,097 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:27:01,098 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:27:01,109 INFO (133) Create a new connection to the database
+2023-10-30 11:27:01,111 INFO (133) Create a new connection to the database
+2023-10-30 11:27:01,114 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:27:01,116 INFO (133) Create a new connection to the database
+2023-10-30 11:27:09,389 DEBUG (145) 
+                SELECT 
+                    email,
+                    employee_id,
+                    first_name,
+                    middle_name,
+                    last_name,
+                    joined_date,
+                    svi_id,
+                    image_url
+                FROM v_employee_attribute 
+                WHERE employee_id = 65
+                
+2023-10-30 11:27:09,392 INFO (133) Create a new connection to the database
+2023-10-30 11:27:13,925 DEBUG (145)   SELECT attribute_id
+                    FROM attributes
+                    WHERE attribute_accessor = "image_url"
+                
+2023-10-30 11:27:13,929 INFO (133) Create a new connection to the database
+2023-10-30 11:27:13,930 DEBUG (145) 
+                SELECT 
+                    employee_attribute_values.attribute_value_id
+                FROM employee_attribute_values
+                WHERE employee_attribute_values.employee_id = 65
+                AND employee_attribute_values.attribute_id = 2;
+                
+2023-10-30 11:27:13,933 INFO (133) Create a new connection to the database
+2023-10-30 11:27:13,942 INFO (133) 
+                    UPDATE  attribute_values
+                    SET attribute_value = "http://192.168.200.201:8080//api/v1/service/view-photo/16"
+                    WHERE attribute_value_id = 2848
+                
+2023-10-30 11:27:13,945 INFO (133) Create a new connection to the database
+2023-10-30 11:27:21,783 DEBUG (145) 
+                        SELECT 
+                            v_employee_role.employee_id,
+                            v_employee_role.email,
+                            v_employee_role.role_id,
+                            v_employee_role.role_accessor,
+                            v_employee_role.role_name,
+                            v_employee_attribute.image_url
+                        FROM v_employee_role
+                        INNER JOIN v_employee_attribute ON v_employee_attribute.employee_id = v_employee_role.employee_id
+                        WHERE v_employee_role.email = "admin@savarti.com";
+                    
+2023-10-30 11:27:21,787 INFO (133) Create a new connection to the database
+2023-10-30 11:27:22,817 INFO (133) 
+                        INSERT INTO employee_tokens 
+                            (employee_id, token)
+                        VALUES 
+                            ('65', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBzYXZhcnRpLmNvbSIsImV4cCI6MTA5Njk4NjQwMDQyLCJ1c2VyX2lkIjo2NSwicm9sZXMiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW5pc3RyYXRpb24iLCJhY2Nlc3NvciI6ImFkbWluIn1dLCJhdmF0YXIiOiJodHRwOi8vMTkyLjE2OC4yMDAuMjAxOjgwODAvL2FwaS92MS9zZXJ2aWNlL3ZpZXctcGhvdG8vMTYifQ.fhxNlN6kZ6RifusCSAiQSOu55i7nYZ2Agvjyjfa74gY');
+                    
+2023-10-30 11:27:22,821 INFO (133) Create a new connection to the database
+2023-10-30 11:27:22,887 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:27:22,890 INFO (133) Create a new connection to the database
+2023-10-30 11:27:22,897 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:27:22,910 INFO (133) Create a new connection to the database
+2023-10-30 11:27:22,913 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:27:22,915 INFO (133) Create a new connection to the database
+2023-10-30 11:27:31,190 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:27:31,193 INFO (133) Create a new connection to the database
+2023-10-30 11:27:31,194 DEBUG (145) 
+                SELECT 
+                    attributes.attribute_id,
+                    attributes.attribute_name,
+                    attributes.attribute_accessor,
+                    attributes.description,              
+                    attributes.attribute_order              
+                FROM attributes
+                WHERE is_display_table = '1'
+                ORDER BY attributes.attribute_order;
+                
+2023-10-30 11:27:31,197 INFO (133) Create a new connection to the database
+2023-10-30 11:27:31,199 DEBUG (145) 
+            SELECT 
+                employee_id,
+                first_name,
+                last_name,
+                middle_name,
+                svi_id,image_url,full_name,email,joined_date
+            FROM v_employee_attribute 
+            WHERE employee_id != 65 ORDER BY svi_id
+        
+2023-10-30 11:27:31,204 INFO (133) Create a new connection to the database

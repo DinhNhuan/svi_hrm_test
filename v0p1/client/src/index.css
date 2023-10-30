@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'nunito';
+  src: local('Nunito-Italic-VariableFont_wght'),
+       url('./fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal; /* or use font-weight: bold; for bold font */
+  font-style: normal;
+}
+
+/* Use the custom font in your styles */
+body {
+  font-family: 'nunito', sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* remove POWERED BY JODIT in Editor Component */
+.jodit-status-bar-link {
+    display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    border-radius: 5px;
+    height: 120px;
+    max-height: 12p0x;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
